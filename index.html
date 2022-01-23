@@ -143,8 +143,12 @@ if (hrs < 12)
         greet = 'In my life, I will practice persistence ';
     else if (hrs >= 19 && hrs <= 20)
         greet = 'In my life, I will practice forgiveness  ';
-      else if (hrs >= 20 && hrs <= 24)
+    else if (hrs >= 20 && hrs <= 21)
+        greet = 'In my life, I will practice gratitude  ';
+    else if (hrs >= 21 && hrs <= 22)
         greet = 'Love is that micro-moment of warmth and connection that you share with another living being.  ';
+    else if (hrs >= 22 && hrs <= 24)
+        greet = 'Once you start making the effort to be more mindful in your activities — you suddenly start appreciating life.  ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
